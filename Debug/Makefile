@@ -40,6 +40,7 @@ C_SRCS +=  \
 ../adc.c \
 ../hyst.c \
 ../led.c \
+../log.c \
 ../main.c \
 ../pwm.c \
 ../time.c
@@ -55,6 +56,7 @@ OBJS +=  \
 adc.o \
 hyst.o \
 led.o \
+log.o \
 main.o \
 pwm.o \
 time.o
@@ -63,6 +65,7 @@ OBJS_AS_ARGS +=  \
 adc.o \
 hyst.o \
 led.o \
+log.o \
 main.o \
 pwm.o \
 time.o
@@ -71,6 +74,7 @@ C_DEPS +=  \
 adc.d \
 hyst.d \
 led.d \
+log.d \
 main.d \
 pwm.d \
 time.d
@@ -79,6 +83,7 @@ C_DEPS_AS_ARGS +=  \
 adc.d \
 hyst.d \
 led.d \
+log.d \
 main.d \
 pwm.d \
 time.d
@@ -97,6 +102,8 @@ LINKER_SCRIPT_DEP+=
 
 
 # AVR32/GNU C Compiler
+
+
 
 
 

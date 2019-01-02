@@ -11,6 +11,6 @@
 	int led_set_luminance_limit(uint8_t);
 	void led_increase(void);
 	void led_decrease(void);
-	void led_check(void);
+	void led_update(void);
 	
 #endif

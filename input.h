@@ -15,8 +15,5 @@
 	
 	
 	enum bool {TRUE, FALSE};
-		
-		
-	void input_init(void);
-	
+
 #endif

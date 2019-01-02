@@ -8,16 +8,15 @@
 
     #define NO_STATE_CHANGE -1
 	
-	#define VOLT_STATE_OFF 0
-	#define VOLT_STATE_50 1
-	#define VOLT_STATE_70 2
-	#define VOLT_STATE_100 3
+	#define STATE_OFF 0
+	#define STATE_50 1
+	#define STATE_70 2
+	#define STATE_100 3
 	
-	#define TEMP_STATE_OFF 0
-	#define TEMP_STATE_50 1
-	#define TEMP_STATE_70 2
-	#define TEMP_STATE_100 3
-	
+	#define TEMP_100C 490
+	#define TEMP_80C 810
+	#define TEMP_60C 1190
+	#define TEMP_55C 1530
 
     struct Threshold {
 		uint16_t lower;

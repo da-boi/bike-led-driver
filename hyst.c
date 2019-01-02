@@ -5,20 +5,20 @@ struct Threshold g_voltageHystTable[3] =  {
 	{   // Threshold 0
 		2970,
 		3150,
-		VOLT_STATE_OFF,
-		VOLT_STATE_50
+		STATE_OFF,
+		STATE_50
 	},
 	{   // Threshold 1
 		3149,
 		3240,
-		VOLT_STATE_50,
-		VOLT_STATE_70
+		STATE_50,
+		STATE_70
 	},
 	{   // Threshold 2
 		3239,
 		3390,
-		VOLT_STATE_70,
-		VOLT_STATE_100
+		STATE_70,
+		STATE_100
 	}
 };
 
@@ -26,20 +26,20 @@ struct Threshold g_temperatureHystTable[3] =  {
 	{   // Threshold 0
 		TEMP_100C,
 		TEMP_80C,
-		TEMP_STATE_OFF,
-		TEMP_STATE_50
+		STATE_OFF,
+		STATE_50
 	},
 	{   // Threshold 1
 		TEMP_80C,
 		TEMP_60C,
-		TEMP_STATE_50,
-		TEMP_STATE_70
+		STATE_50,
+		STATE_70
 	},
 	{   // Threshold 2
 		TEMP_60C,
 		TEMP_55C,
-		TEMP_STATE_70,
-		TEMP_STATE_100
+		STATE_70,
+		STATE_100
 	},
 };
 

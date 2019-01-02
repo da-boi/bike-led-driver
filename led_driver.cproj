@@ -171,10 +171,19 @@
     <Compile Include="hyst.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="input.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="led.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="led.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="log.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="log.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">

@@ -8,6 +8,8 @@ hyst.c
 
 led.c
 
+log.c
+
 main.c
 
 pwm.c

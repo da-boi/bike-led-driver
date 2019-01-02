@@ -9,10 +9,6 @@
 	#define ADC_MUX_TEMPERATURE 0b0011
 	#define ADC_MUX_MASK 0b11110000
 	
-	#define TEMP_100C 490
-	#define TEMP_80C 810
-	#define TEMP_60C 1190
-	#define TEMP_55C 1530
 	
 	/* Initializes the ADC */
 	void adc_init(void);

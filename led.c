@@ -49,7 +49,7 @@ void led_decrease(void) {
 	led_set_luminance(index);
 }
 
-void led_check(void) {
+void led_update(void) {
 	if ( g_luminance > g_luminanceLimit ) {
 		led_set_luminance(g_luminanceLimit);
 	}
