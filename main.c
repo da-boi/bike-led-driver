@@ -49,8 +49,6 @@ int main(void) {
 	adc_init();
 	sei();
 	
-	log_clear();
-	
     while (1) {
 		
 		/*

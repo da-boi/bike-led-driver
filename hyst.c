@@ -3,20 +3,20 @@
 
 struct Threshold g_voltageHystTable[3] =  {
 	{   // Threshold 0
-		2970,
-		3150,
+		2277,
+		2415,
 		STATE_OFF,
 		STATE_50
 	},
 	{   // Threshold 1
-		3149,
-		3240,
+		2414,
+		2484,
 		STATE_50,
 		STATE_70
 	},
 	{   // Threshold 2
-		3239,
-		3390,
+		2483,
+		2588,
 		STATE_70,
 		STATE_100
 	}

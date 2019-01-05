@@ -10,7 +10,7 @@
 	#define RELEASED 0
 	#define PRESSED 1
 	
-	#define DEBOUNCE_DELAY 200
+	#define DEBOUNCE_DELAY 120
 	#define EMERGENCY_DELAY 7000
 	
 	

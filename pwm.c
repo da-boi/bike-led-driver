@@ -23,7 +23,7 @@ void pwm_init(void) {
 	OCR1C = _PWM_TOP;			// Set value on which to clear the counter
 	
 	/* Set duty cycle to 0% */
-	OCR1B = 0;
+	OCR1B = 214;
 }
 
 uint8_t pwm_set_duty(uint8_t duty) {
